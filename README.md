@@ -22,5 +22,5 @@ Reading time ..
 
 * [x] sum of a range
 * [x] Reversing an array
-* [ ] a list
+* [x] a list .
 * [ ] deep comparison
