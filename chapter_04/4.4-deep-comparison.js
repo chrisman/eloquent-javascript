@@ -8,10 +8,9 @@ var deepEqual = function(x, y){
     if (!(i in y)) return false;
     return deepEqual(x[i], y[i])
   }
-  
-  return
 }
 
+// .. and is not null
 var isAnObject = function(obj){
   return (typeof obj == 'object' && obj != null)
 }
