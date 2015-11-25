@@ -1,4 +1,4 @@
-var deepEqual = function(x, y){
+var deepEqual = function(x, y) {
 
   if (!isAnObject(x) && !isAnObject(y)) return x === y
 
@@ -6,39 +6,54 @@ var deepEqual = function(x, y){
 
   for (var i in x) {
     if (!(i in y)) return false;
-    return deepEqual(x[i], y[i])
+  return deepEqual(x[i], y[i])
   }
 }
 
 // .. and is not null
-var isAnObject = function(obj){
+var isAnObject = function(obj) {
   return (typeof obj == 'object' && obj != null)
 }
 
-var numProps = function(obj){
+var numProps = function(obj) {
   var collector = 0
   for (var p in obj)
     collector++
   return collector
 }
 
-var obj = {here: {is: "an"}, object: 2};
+var obj = {
+  here: {
+    is: "an"
+  },
+  object: 2
+};
 console.log(deepEqual(
   obj,
   obj));
 // → true
 
 console.log(deepEqual(
-  obj,
-  {here: 1, object: 2}));
+  obj, {
+    here: 1,
+    object: 2
+  }));
 // → false
 
 console.log(deepEqual(
-  obj,
-  {here: {is: "an"}, object: 2}));
+  obj, {
+    here: {
+      is: "an"
+    },
+    object: 2
+  }));
 // → true
 
-console.log(deepEqual(
-  {key: "val", flap: "toop"},
-  {doot: "val", key1: "val1"}));
+console.log(deepEqual({
+  key: "val",
+  flap: "toop"
+}, {
+  doot: "val",
+  key1: "val1"
+}));
 // -> false

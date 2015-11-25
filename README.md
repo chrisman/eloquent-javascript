@@ -16,7 +16,15 @@ Let's do Eloquent JavaScript
 
 ## Chapter 4
 
-Concepts: Objects, arrays, weresquirrels. `delete`, `in`. mutable, immutable. phi as a measure of correlation = (n11n00 - n10n01)/sqrt(n1.n0.n.1n.0). shift/unshift = push/pop for beginning
+Concepts:
+
+* Objects, arrays, weresquirrels.
+* unary operators `delete`, `in`.
+* mutable variables, immutable datatypes.
+* way too cute correlation table example:
+  * 2x2 truth table yields two-bit binary value -> four item array. (Allows for "if event i+=1" and "if otherEvent i+=2")
+  * phi as a measure of correlation = (n11n00 -   n10n01)/sqrt(n1.n0.n.1n.0). 
+* shift/unshift = push/pop for beginning
 
 Reading time ..
 
@@ -24,3 +32,5 @@ Reading time ..
 * [x] Reversing an array
 * [x] a list .
 * [x] deep comparison
+
+## Chapter 5
