@@ -21,6 +21,6 @@ Concepts: Objects, arrays, weresquirrels. `delete`, `in`. mutable, immutable. ph
 Reading time ..
 
 * [x] sum of a range
-* [ ] Reversing an array
+* [x] Reversing an array
 * [ ] a list
 * [ ] deep comparison
