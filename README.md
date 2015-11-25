@@ -1,32 +1,17 @@
 # Eloquent Javascript Solutions
 
-Fork this repo and submit a pull request with your solutions to the Eloquent JavaScript exercises for Chapters 2, 3
+Let's do Eloquent JavaScript
 
-### Add your Chapter 2 solutions to the following js files:
+## Chapter 2
 
-```
-Chapter 2
+* [x] chess_board.js
+* [x] looping_triangle.js
+* [x] fizz_buzz.js
 
-chess_board.js
-looping_triangle.js
-fizz_buzz.js
-```
-### Add your Chapter 3 solutions to the following js files:
-```
-Chapter 3
-minimum.js
-bean_counting.js
-recursion.js
-```
+## Chapter 3
 
-When writing your solutions, use `console.log` to print the results.
+* [x] minimum.js
+* [x] bean_counting.js
+* [x] recursion.js
 
-Run your solutions with `node`, like so, to see the output in your Terminal:
-
-```
-node chess_board.js
-node looping_triangle.js
-node fizz_buzz.js
-```
-
-Submit a pull request after pushing your first exercise solution (`chess_board.js`).
+## Chapter 4
