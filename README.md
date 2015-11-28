@@ -42,5 +42,5 @@ __Exercises__
 
 * [x] flattening an array
 * [x] mother/child age difference
-* [ ] historical life expectancy
+* [x] historical life expectancy ... spent way too much time on this one :(
 * [ ] every and then some
