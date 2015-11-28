@@ -16,8 +16,7 @@ Let's do Eloquent JavaScript
 
 ## Chapter 4
 
-Concepts:
-
+__Concepts__
 * Objects, arrays, weresquirrels.
 * unary operators `delete`, `in`.
 * mutable variables, immutable datatypes.
@@ -28,6 +27,7 @@ Concepts:
 
 Reading time ..
 
+__Exercises__
 * [x] sum of a range
 * [x] Reversing an array
 * [x] a list .
@@ -35,13 +35,23 @@ Reading time ..
 
 ## Chapter 5 - Higher Order Functions
 
+__Notes__
 * arrays and objects get `map`, `filter`, `reduce`
 * arrays get `every` and `some`
 * functions get `apply` and `bind`, which remain kind of mysterious to me..
 
 __Exercises__
-
 * [x] flattening an array
 * [x] mother/child age difference
 * [x] historical life expectancy ... spent way too much time on this one :(
-* [x] every and then some
+* [x] every and then some <- i really wanted forEach to be the answer to this one, but it straight up wouldn't go :(
+
+## Chapter 6 - The Secret Life of Objects
+
+__Notes__
+* 
+
+__Exercises__
+* [ ] 6.1 - A vector type
+* [ ] 6.2 - Another cell
+* [ ] 6.3 - Sequence interface
