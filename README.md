@@ -35,7 +35,8 @@ Reading time ..
 
 ## Chapter 5 - Higher Order Functions
 
-* arrays and objects get `map`, `filter`, reduce
+* arrays and objects get `map`, `filter`, `reduce`
+* arrays get `every` and `some`
 * functions get `apply` and `bind`, which remain kind of mysterious to me..
 
 __Exercises__
@@ -43,4 +44,4 @@ __Exercises__
 * [x] flattening an array
 * [x] mother/child age difference
 * [x] historical life expectancy ... spent way too much time on this one :(
-* [ ] every and then some
+* [x] every and then some
